@@ -1,4 +1,4 @@
-param environmentPrefix string = 'mabrtest'
+param environmentPrefix string
 param location string = resourceGroup().location
 
 module fileShareModule 'fileShare.bicep' = {
